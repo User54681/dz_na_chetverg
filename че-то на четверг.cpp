@@ -17,6 +17,15 @@ public:
 	void SetR(int valueR) {
 		R = valueR;
 	}
+	int GetX(){
+		return x;
+	}
+	int GetY() {
+		return y;
+	}
+	int GetR() {
+		return R;
+	}
 };
 
 int main()
